@@ -103,6 +103,11 @@ body{
 	grid-template : 100% 100% 100%/ 1fr 1fr 1fr;
 }
 
+.description-card p:nth-child(2){
+
+	color: #10c7e4;
+}
+
 .div-left-nav{
 
 	display: flex;
