@@ -97,6 +97,33 @@ body{
 
 }
 
+#card1{
+
+	background-image: url(../images/plan.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-position: center;
+}
+
+#card2{
+
+	background-image: url(../images/payment.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-position: center;
+}
+
+#card3{
+
+	background-image: url(../images/share.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-position: center;
+}
+
 #container-bottom-left-cards{
 
 	display: grid;
