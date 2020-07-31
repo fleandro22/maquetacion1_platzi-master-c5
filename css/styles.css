@@ -129,7 +129,7 @@ body{
 
 	display: grid;
 	grid-template : 100% 100% 100%/ 1fr 1fr 1fr;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .description-card p:nth-child(2){
@@ -157,6 +157,11 @@ body{
 	color: white;
 }
 
+.nav-calendar:hover {
+
+		border: 5px solid #deffe5;
+}
+
 .div-left-card{
 	
 	display: flex;
@@ -168,7 +173,7 @@ body{
 .container-bottom-right-item{
 
 	display: grid;
-	grid-template-columns: 20% 50% 10% 20%;
+	grid-template-columns: 30% 50% 10% 10%;
 	border-bottom: 1px solid #a79f9f; 
 
 }
@@ -202,28 +207,6 @@ body{
 
 }
 
-.button-download{
-
-    display: inline-block;
-    padding: 10px 16px;
-    cursor: pointer;
-    border: none;
-    background-color: #3de44f;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    position: relative;
-    outline: none;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    height: 40px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: center;
-	
-}
-
 #icono1{
 
 	background-image: url(../images/key.png);
@@ -250,7 +233,7 @@ body{
 
 #icono3{
 
-	background-image: url(../images/key.png);
+	background-image: url(../images/smartphone.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100%;
@@ -259,3 +242,35 @@ body{
     margin: 0 auto;
 
 }
+
+.button-download{
+
+    display: inline-block;
+    padding: 10px 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #3de44f;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    position: relative;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 40px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+	
+}
+
+.button-download:hover {
+
+ 	border: 5px solid #3a8c42;
+  	
+}
+
+
+
+
