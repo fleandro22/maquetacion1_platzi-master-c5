@@ -5,6 +5,5 @@ el cual tienen como objetivo ponr en practica los conocimientos aprendidos en Pl
 
 ## Construido con
 
-HTML5
-* [HTML5]
-* [CSS] - Grid and Flexbox
+* HTML5
+* CSS - Grid and Flexbox
