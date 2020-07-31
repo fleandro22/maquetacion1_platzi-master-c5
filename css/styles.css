@@ -85,6 +85,7 @@ body{
 
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding: 10px 0px;
 }
 
@@ -160,7 +161,7 @@ body{
 	
 	display: flex;
 	flex-flow:column;
-	margin: 10px;
+	margin: 0px 10px;
 
 }
 
@@ -172,19 +173,22 @@ body{
 
 }
 
-/*.container-bottom-right-item div{
+.container-bottom-right-item:nth-child(4){
 
-	border: 1px solid gray;
+	border-bottom:none;
 }
-*/
+
+
 .nav-calendar{
 
-	border       :1px solid #a79f9f;
-	text-align   : center;
-	width        : 20%;
-	border-radius: 40px;
-	padding      : 5px;
-	margin       : 1px;
+	display        : flex;
+	align-items    : center;
+	justify-content: center;
+	border         : 1px solid #a79f9f;
+	text-align     : center;
+	width          : 30%;
+	border-radius  : 40px;
+	margin         : 2px;
 
 }
 
@@ -227,7 +231,31 @@ body{
     background-size: contain;
     height: 100%;
     background-position: center;
-   
+    width: 70%;
+    margin: 0 auto;
 
+}
+
+#icono2{
+
+	background-image: url(../images/flower.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-position: center;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+#icono3{
+
+	background-image: url(../images/key.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-position: center;
+    width: 70%;
+    margin: 0 auto;
 
 }
